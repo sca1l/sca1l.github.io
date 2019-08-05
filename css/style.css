@@ -73,3 +73,36 @@ header h1 a {
 }
 
 /*-------------*/
+
+h2 {
+  position: relative;
+  line-height: 1.4;
+  padding:0.25em 0.3em 0;
+  display: inline-block;
+  border-left: solid 5px green;
+  border-bottom: solid 2px gray;
+  top:0;
+}
+
+h2:before {
+  content: '';
+  padding: 0 0em;
+  display: inline-block;/*忘れずに！*/
+  width: 32px;/*画像の幅*/
+  height: 32px;/*画像の高さ*/
+  background-image: url(../images/h2before.png);
+  background-size: cover;
+  vertical-align: middle;
+}
+
+
+
+/*--------------------*/
+main {
+	width: 100%;
+	max-width: 930px;
+	margin: 0 auto;
+	padding: 24px 0;
+}
+
+
